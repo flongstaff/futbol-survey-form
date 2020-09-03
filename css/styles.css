@@ -1,0 +1,50 @@
+/*Fonts from Google*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap'");
+/* General settings for body */
+body {
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    color: #35524D;
+}
+
+.labels{
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.right {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;}
+
+
+#name, #email, #age {
+    border-radius: 2px;
+    border: 1px solid #4E9C89;
+    height: 15px;
+}
+
+#survey-form {
+    max-width: 50%;
+    margin: auto;
+}
+
+#submit {
+    border: 2px solid #35524D;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bold;
+    color: #4E9C89;
+    height: auto;
+    width: auto;
+    margin-top: auto;
+}

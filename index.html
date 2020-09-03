@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Futbol Survey Form</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="title">Futbol Survey Form</h1>
+            <p id="description">Tell us wich team is the best of the world and why do you love Futbol.</p>
+        </header>
+    <form class="form" action="" id="survey-form">
+        <div class="labels">
+            <label for="name" id="name-label">Name</label>
+        </div>
+        <div class="right">
+                <input type="text" id="name" value="" placeholder="Enter your Name" required>
+        </div>
+
+        <div class="labels">
+            <label for="email" id="email-label">Email</label>
+        </div>
+            <div class="right">
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+        <div class="labels">
+            <label for="Age" id="number-label">Age</label>
+        </div>
+        <div class="right">
+            <input type="number" min="10" max="100" placeholder="Age" required>
+        </div>
+
+            <div class="labels">
+                <label for="team">Select your team:</label>
+            </div>
+            <div class="right">
+                <select name="team" id="dropdown">
+                <option disabled="" selected="" value="">Select your Team</option>
+                <option value="boca">Boca Juniors</option>
+                <option value="fiorentina">AC Fiorentina</option>
+                <option value="real">Real Madrid</option>
+                <option value="arsenal">Arsenal</option>
+                </select>
+            </div>
+            </div>
+
+        <div class="labels">
+            <label for="gender">Gender</label>
+        </div>
+
+        <div class="right">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <div class="labels">
+            <label for="position">Position you would like to play</label>
+        </div>
+        <div class="right">
+            <input type="checkbox" id="goalkeeper" value="goalkeeper">
+                <label for="">GK</label>
+            <input type="checkbox" id="defender" value="defender">
+                <label for="">DF</label>
+            <input type="checkbox" id="midfield" value="midfield">
+                <label for="">MD</label>
+            <input type="checkbox" id="striker" value="striker">
+                <label for="">DC</label>
+        </div>
+
+        <div class="labels">
+            <label for="comment">Please tell us your experience playing Futbol.</label>
+        </div>
+        <div class="right">
+            <textarea name="comment" id="comment" cols="30" rows="2"></textarea>
+        </div>
+
+        <div>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+    </main>
+</body>
+</html>
